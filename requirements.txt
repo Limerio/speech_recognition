@@ -1,0 +1,10 @@
+pyttsx3
+SpeechRecognition
+openai-whisper
+spotipy
+python-dotenv
+tensorflow
+pyaudio
+soundfile
+winrt
+nltk

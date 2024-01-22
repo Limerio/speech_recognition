@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Hey",
+        "greetings"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Resume the music.",
+        "Pause the music.",
+        "Status of the music."
+      ],
+      "responses": {
+        "pause": ["The musique are in pause"],
+        "resume": ["The musique is resuming"],
+        "status": ["The music are [music] by [artist]"]
+      }
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Could You Please Tell Me the Time?",
+        "What time is it now?",
+        "Excuse Me, May I Know the Time?",
+        "Would You Mind If I Ask You the Time?"
+      ],
+      "responses": ["The time is [time]"]
+    },
+    {
+      "tag": "maths",
+      "patterns": ["calculate"],
+      "responses": ["calculate response"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What is the weather of"],
+      "responses": ["The temperature of [city] is [temperature]°C"]
+    },
+    {
+      "tag": "application",
+      "patterns": ["Start application"],
+      "responses": ["[application] started"]
+    }
+  ]
+}

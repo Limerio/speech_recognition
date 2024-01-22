@@ -1,0 +1,8 @@
+__pycache__/
+.env
+Lib/
+Scripts/
+share/
+Include/
+*.keras
+*.pkt
