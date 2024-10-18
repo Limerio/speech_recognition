@@ -11,7 +11,7 @@ The goal of this project is to create a small assistant like Siri or Amazon Echo
 - [x] Give the time
 - [x] Greeting
 - [x] Goodbye
-- [] Search
+- [ ] Search
 - [x] Start application on host computer
 - [x] Control keylights
 - [x] Math Calculation
@@ -20,5 +20,5 @@ The goal of this project is to create a small assistant like Siri or Amazon Echo
   - [x] Status
   - [x] Pause
   - [x] Resume
-  - [] Skip
-  - [] Back
+  - [ ] Skip
+  - [ ] Back
